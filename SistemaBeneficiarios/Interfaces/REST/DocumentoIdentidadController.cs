@@ -5,9 +5,11 @@ using SistemaBeneficiarios.Interfaces.REST.Resources;
 
 namespace SistemaBeneficiarios.Interfaces.REST;
 
+/// <summary>
+/// Controlador REST para gestionar tipos de Documento de Identidad.
+/// </summary>
 [ApiController]
 [Route("api/v1/[controller]")]
-
 public class DocumentoIdentidadController : ControllerBase
 {
     private readonly IMediator _mediator;
@@ -17,6 +19,10 @@ public class DocumentoIdentidadController : ControllerBase
         _mediator = mediator;
     }
     
+    /// <summary>
+    /// Obtiene todos los tipos de documento de identidad activos.
+    /// </summary>
+    /// <returns>Lista de documentos de identidad.</returns>
     [HttpGet]
     public async Task<IActionResult> GetAll()
     {

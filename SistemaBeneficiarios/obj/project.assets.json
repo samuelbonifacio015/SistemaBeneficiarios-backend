@@ -2101,19 +2101,19 @@
     ]
   },
   "packageFolders": {
-    "/home/samuel/.nuget/packages/": {}
+    "C:\\Users\\crama\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/samuel/codigoooo/SistemaBeneficiarios/SistemaBeneficiarios/SistemaBeneficiarios.csproj",
+      "projectUniqueName": "C:\\Users\\crama\\Desktop\\SistemaBeneficiarios-backend\\SistemaBeneficiarios\\SistemaBeneficiarios.csproj",
       "projectName": "SistemaBeneficiarios",
-      "projectPath": "/home/samuel/codigoooo/SistemaBeneficiarios/SistemaBeneficiarios/SistemaBeneficiarios.csproj",
-      "packagesPath": "/home/samuel/.nuget/packages/",
-      "outputPath": "/home/samuel/codigoooo/SistemaBeneficiarios/SistemaBeneficiarios/obj/",
+      "projectPath": "C:\\Users\\crama\\Desktop\\SistemaBeneficiarios-backend\\SistemaBeneficiarios\\SistemaBeneficiarios.csproj",
+      "packagesPath": "C:\\Users\\crama\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\crama\\Desktop\\SistemaBeneficiarios-backend\\SistemaBeneficiarios\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/samuel/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\crama\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -2183,7 +2183,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/samuel/.dotnet/sdk/9.0.309/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\crama\\.dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

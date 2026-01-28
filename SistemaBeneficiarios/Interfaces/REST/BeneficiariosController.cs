@@ -1,12 +1,19 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using SistemaBeneficiarios.Domain.Model.Commands;
+using MediatR;
+using Microsoft.AspNetCore.Mvc;
+using SistemaBeneficiarios.Domain.Model.Commands;
 using SistemaBeneficiarios.Domain.Model.Queries;
 using SistemaBeneficiarios.Interfaces.REST.Resources;
 using SistemaBeneficiarios.Interfaces.REST.Transform;
 
 namespace SistemaBeneficiarios.Interfaces.REST;
 
+/// <summary>
+/// Controlador REST para gestionar la entidad Beneficiarios.
+/// Expone endpoints para crear, leer, actualizar y eliminar beneficiarios.
+/// </summary>
 [ApiController]
 [Route("api/v1/[controller]")]
 public class BeneficiariosController : ControllerBase
@@ -18,6 +25,13 @@ public class BeneficiariosController : ControllerBase
         _mediator = mediator;
     }
     
+    /// <summary>
+    /// Crea un nuevo beneficiario.
+    /// </summary>
+    /// <param name="resource">Recurso con los datos del beneficiario a crear.</param>
+    /// <returns>Respuesta HTTP con el resultado de la operación.</returns>
+    /// <response code="201">Beneficiario creado exitosamente.</response>
+    /// <response code="400">Error en los datos proporcionados.</response>
     [HttpPost]
     public async Task<IActionResult> Create([FromBody] CreateBeneficiarioResource resource)
     {
@@ -33,6 +47,12 @@ public class BeneficiariosController : ControllerBase
         }
     }
     
+    /// <summary>
+    /// Actualiza un beneficiario existente.
+    /// </summary>
+    /// <param name="id">ID del beneficiario a actualizar.</param>
+    /// <param name="resource">Datos nuevos para el beneficiario.</param>
+    /// <returns>Resultado de la acción.</returns>
     [HttpPut("{id}")]
     public async Task<IActionResult> Update(int id, [FromBody] UpdateBeneficiarioResource resource)
     {
@@ -53,6 +73,11 @@ public class BeneficiariosController : ControllerBase
         }
     }
     
+    /// <summary>
+    /// Elimina un beneficiario por su ID.
+    /// </summary>
+    /// <param name="id">ID del beneficiario.</param>
+    /// <returns>No Content si se eliminó, NotFound si no existe.</returns>
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(int id)
     {
@@ -61,6 +86,10 @@ public class BeneficiariosController : ControllerBase
         return NoContent();
     }
     
+    /// <summary>
+    /// Obtiene todos los beneficiarios.
+    /// </summary>
+    /// <returns>Lista de beneficiarios.</returns>
     [HttpGet]
     public async Task<IActionResult> GetAll()
     {
@@ -73,6 +102,11 @@ public class BeneficiariosController : ControllerBase
         return Ok(resources);
     }
     
+    /// <summary>
+    /// Obtiene un beneficiario por su ID.
+    /// </summary>
+    /// <param name="id">ID del beneficiario.</param>
+    /// <returns>El recurso del beneficiario o NotFound.</returns>
     [HttpGet("{id}")]
     public async Task<IActionResult> GetById(int id)
     {
