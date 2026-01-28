@@ -11,9 +11,9 @@
   git clone https://github.com/samuelbonifacio015/SistemaBeneficiarios-backend.git
   cd SistemaBeneficiarios-backend
   ```
-![gitclone](Docs/gitclone.png)
+![gitclone](https://github.com/samuelbonifacio015/SistemaBeneficiarios-backend/raw/master/SistemaBeneficiarios/Docs/gitclone.png)
 2. **Selecciona las queries (SQLQuery1.sql)**
-![executequery](Docs/executequery.png)
+![executequery](https://github.com/samuelbonifacio015/SistemaBeneficiarios-backend/raw/master/SistemaBeneficiarios/Docs/executequery.png)
 3. **Crea la base de datos en SQL Server y ejecuta las queries una por una:**
     ```sql
     /* Setup Inicial */
@@ -50,8 +50,8 @@
     );
     GO
     ```
-![createdbSQLServer](Docs/createdbSQLServer.png)
+![createdbSQLServer](https://github.com/samuelbonifacio015/SistemaBeneficiarios-backend/raw/master/SistemaBeneficiarios/Docs/createdbSQLServer.png)
 4. Corre el proyecto de .NET con tu IDE de preferencia.
-![runproject](Docs/runproject.png)
+![runproject](https://github.com/samuelbonifacio015/SistemaBeneficiarios-backend/raw/master/SistemaBeneficiarios/Docs/runproyect.png)
 5. Una vez compilado, abre tu navegador y visita [http://localhost:5002/swagger] para ver probar REST API.
-![swaggerdocs](Docs/swaggerdocs.png)
+![swaggerdocs](https://github.com/samuelbonifacio015/SistemaBeneficiarios-backend/raw/master/SistemaBeneficiarios/Docs/swaggerdocs.png)
