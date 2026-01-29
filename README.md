@@ -52,7 +52,7 @@
     ```
 ![createdbSQLServer](https://github.com/samuelbonifacio015/SistemaBeneficiarios-backend/raw/master/SistemaBeneficiarios/Docs/createdbSQLServer.png)
 4. Corre el proyecto de .NET con tu IDE de preferencia.
-![runproject](https://github.com/samuelbonifacio015/SistemaBeneficiarios-backend/raw/master/SistemaBeneficiarios/Docs/runproyect.png)
+![runproject](https://github.com/samuelbonifacio015/SistemaBeneficiarios-backend/raw/master/SistemaBeneficiarios/Docs/runproject.png)
 5. Una vez compilado, abre tu navegador y visita [http://localhost:5002/swagger] para ver probar REST API.
 ![swaggerdocs](https://github.com/samuelbonifacio015/SistemaBeneficiarios-backend/raw/master/SistemaBeneficiarios/Docs/swaggerdocs.png)
 
