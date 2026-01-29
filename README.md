@@ -55,3 +55,12 @@
 ![runproject](https://github.com/samuelbonifacio015/SistemaBeneficiarios-backend/raw/master/SistemaBeneficiarios/Docs/runproyect.png)
 5. Una vez compilado, abre tu navegador y visita [http://localhost:5002/swagger] para ver probar REST API.
 ![swaggerdocs](https://github.com/samuelbonifacio015/SistemaBeneficiarios-backend/raw/master/SistemaBeneficiarios/Docs/swaggerdocs.png)
+
+***Nota: Para pasar al backend, revisa el repositorio adjuntado.***
+
+### Video de prueba: 
+![Video](https://github.com/samuelbonifacio015/SistemaBeneficiarios-backend/raw/master/SistemaBeneficiarios/Docs/video.png)
+https://drive.google.com/file/d/1516KiKHfzzZpL46vVWW8PCAVUogLIiuN/view?usp=sharing
+
+### Repositorio de Frontend: 
+https://github.com/samuelbonifacio015/SistemaBeneficiarios-frontend
