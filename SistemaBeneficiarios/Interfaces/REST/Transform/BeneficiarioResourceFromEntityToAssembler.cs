@@ -12,7 +12,6 @@ public static class BeneficiarioResourceFromEntityAssembler
     /// Convierte una entidad <see cref="Beneficiario"/> en un <see cref="BeneficiarioResource"/>.
     /// </summary>
     /// <param name="entity">La entidad beneficiario.</param>
-    /// <returns>El recurso correspondiente.</returns>
     public static BeneficiarioResource ToResourceFromEntity(Beneficiario entity)
     {
         return new BeneficiarioResource(
