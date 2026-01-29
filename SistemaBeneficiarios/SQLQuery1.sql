@@ -36,7 +36,7 @@ GO
 
 /* /? Listar documentos activos */
 
-CREATE PROCEDURE sp_GetActiveDocumentosIdentidad
+CREATE OR ALTER PROCEDURE sp_GetActiveDocumentosIdentidad
     AS
 BEGIN
 SELECT Id, Nombre, Abreviatura, Pais, Longitud, SoloNumeros, Activo
